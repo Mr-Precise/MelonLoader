@@ -40,7 +40,6 @@ namespace MelonLoader.Il2CppAssemblyGenerator
                 new HostInfo($"{DefaultHostInfo.Melon.API_URL_1}{gamename}", DefaultHostInfo.Melon.Contact),
                 new HostInfo($"{DefaultHostInfo.Melon.API_URL_2}{gamename}", DefaultHostInfo.Melon.Contact),
                 new HostInfo($"{DefaultHostInfo.Melon.API_URL_SAMBOY}{gamename}", DefaultHostInfo.Melon.Contact),
-                new HostInfo($"{DefaultHostInfo.Melon.API_URL_DUBYADUDE}{gamename}", DefaultHostInfo.Melon.Contact),
             };
         }
 
@@ -118,8 +117,6 @@ namespace MelonLoader.Il2CppAssemblyGenerator
                 internal static string API_URL_1 = $"https://api-1.melonloader.com/api/{API_VERSION}/game/";
                 internal static string API_URL_2 = $"https://api-2.melonloader.com/api/{API_VERSION}/game/";
                 internal static string API_URL_SAMBOY = $"https://melon.samboy.dev/api/{API_VERSION}/game/";
-                internal static string API_URL_DUBYADUDE = $"https://melon.dubyadu.de/api/{API_VERSION}/game/";
-
                 internal static InfoStruct Contact(string response_str)
                 {
                     ResponseStruct responseobj = MelonUtils.ParseJSONStringtoStruct<ResponseStruct>(response_str);

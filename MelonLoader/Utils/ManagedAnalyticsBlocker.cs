@@ -83,10 +83,8 @@ namespace MelonLoader.Utils
             "ntp.org",
             "samboy.dev",
             "github.com",
-            "dubyadu.de",
             "melonloader.com",
-            "githubusercontent.com",
-            "thetrueyoshifan.com"
+            "githubusercontent.com"
         };
 
         private static bool CheckShouldBlock(string hostname)
