@@ -6,12 +6,11 @@
 
 ---
 
-<p align="center">
-	<a href="https://github.com/LavaGang/MelonLoader/releases/latest"><img src="https://img.shields.io/github/v/release/LavaGang/MelonLoader?label=latest&style=for-the-badge"></a>
-	<a href="https://github.com/LavaGang/MelonLoader/releases"><img src="https://img.shields.io/github/downloads/LavaGang/MelonLoader/total.svg?style=for-the-badge"></a>
-	<a href="https://github.com/LavaGang/MelonLoader/graphs/contributors"><img src="https://img.shields.io/github/contributors/LavaGang/MelonLoader?style=for-the-badge"></a>
-	<a href="https://discord.gg/2Wn3N2P"><img src="https://img.shields.io/discord/663449315876012052?label=discord&style=for-the-badge&color=blueviolet"></a>
-</p>
+### Fork info:
+* Linux build: glibc 2.31 compatible (ubuntu 20.04+ / Debian 11+)
+* Windows build: vs2019 / MSVC143 (Windows server 2019 / 10+)
+* Cleanup
+* Only for manual installation
 
 ---
 
@@ -46,9 +45,7 @@ Use it to help Develop and Debug MelonLoader, Plugins, and Mods.
 
 | Nightly Builds: |
 | - |
-| [master](https://nightly.link/LavaGang/MelonLoader/workflows/build/master) |
-| [alpha-development](https://nightly.link/LavaGang/MelonLoader/workflows/build/alpha-development) |
-| [universality](https://nightly.link/LavaGang/MelonLoader/workflows/build/universality) |
+| [devel](https://github.com/Mr-Precise/MelonLoader/actions/workflows/build.yml) |
 
 ---
 
@@ -97,7 +94,7 @@ Use it to help Develop and Debug MelonLoader, Plugins, and Mods.
 
 1. Make sure the Game is Closed and Not Running before attempting to Install.
 2. Make sure you have all the [Requirements](#requirements) Installed before attempting to Install.
-3. Download MelonLoader [[x86](https://github.com/LavaGang/MelonLoader/releases/latest/download/MelonLoader.x86.zip)] [[x64](https://github.com/LavaGang/MelonLoader/releases/latest/download/MelonLoader.x64.zip)]
+3. Download MelonLoader Windows: [[x86 (32bit)](https://github.com/Mr-Precise/MelonLoader/releases/latest/download/MelonLoader.Windows.x86.Release.zip)] [[x86_64 (64bit)](https://github.com/Mr-Precise/MelonLoader/releases/latest/download/MelonLoader.Windows.x86_64.Release.zip)] / Linux [[amd64](https://github.com/Mr-Precise/MelonLoader/releases/latest/download/MelonLoader.Linux64.Release.zip)]
 4. Extract the MelonLoader folder from the MelonLoader Zip Archive to the Game's Installation Folder.
 5. Extract version.dll & dobby.dll from the MelonLoader Zip Archive to the Game's Installation Folder.
 
